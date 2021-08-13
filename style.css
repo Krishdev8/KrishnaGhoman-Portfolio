@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
     --primary-color: #6366F1;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
@@ -44,7 +44,7 @@ hr {
 
 .link{
     box-sizing: border-box;
-    text text-decoration: none;
+    text-decoration: none;
     padding: 0.5rem 0.5rem;
     margin-top: 5rem;
     margin-bottom: 1rem;
@@ -52,7 +52,9 @@ hr {
 
 }
 
+
 .link-primary {
+    text-decoration: none;
     color: var(--primary-color);
     border-radius: 00.5rem;
     border: 1px solid var(--primary-color);
@@ -61,6 +63,7 @@ hr {
 }
 
 .link-secondary {
+    text-decoration: none;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
@@ -89,6 +92,11 @@ hr {
     border-bottom-left-radius: 1rem;
 }
 
+.navigation .link {
+    color: white;
+}
+
+
 .navigation .nav-brand {
     font-weight: bold;
 
@@ -98,9 +106,6 @@ hr {
     text-align: right;
 }
 
-.navigation .links {
-    color: white;
-}
 
 
 
