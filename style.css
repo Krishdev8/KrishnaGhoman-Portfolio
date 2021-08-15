@@ -35,9 +35,10 @@ hr {
     margin: auto;
 }
 
-.center-container {
+.container-center {
     min-width: 600px;
     margin: auto;
+    padding-bottom: 2rem;
 }
 
 /* Links */
@@ -143,6 +144,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    padding-bottom: 2rem;
 
 }
 
