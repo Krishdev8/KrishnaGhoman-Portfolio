@@ -26,17 +26,18 @@ hr {
 /* Container */
 .container {
     text-align: center;
+    padding: 0rem 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .container-fluid {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 }
 
 .container-center {
-    min-width: 600px;
+    max-width: 650px;
     margin: auto;
     padding-bottom: 2rem;
 }
