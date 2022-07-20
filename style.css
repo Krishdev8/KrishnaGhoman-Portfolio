@@ -179,3 +179,7 @@ hr {
     padding-inline-start: 0px;
 
 }
+
+.footer li a.link{
+    font-size: 2rem;
+}
