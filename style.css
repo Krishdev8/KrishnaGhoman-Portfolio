@@ -19,16 +19,15 @@ hr {
 /* Spaces */
 
 .margin-md{
-    margin{
         margin: 2rem;
     }
-}
+    
 /* Container */
 .container {
     text-align: center;
     padding: 0rem 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }
 
 .container-fluid {
@@ -182,4 +181,8 @@ hr {
 
 .footer li a.link{
     font-size: 2rem;
+}
+
+.size{
+    font-size: 2.5rem;
 }
